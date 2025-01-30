@@ -1,0 +1,21 @@
+@font-face {
+	font-family: boska;
+	src: url(./Fonts/Boska-BoldItalic.woff) format("woff");
+	src: url(./Fonts/Boska-BoldItalic.woff2) format("woff2");
+	src: url(./Fonts/Boska-BoldItalic.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: switzer;
+	src: url(./Fonts/Switzer-Medium.woff) format("woff");
+	src: url(./Fonts/Switzer-Medium.woff2) format("woff2");
+	src: url(./Fonts/Switzer-Medium.ttf) format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: switzerMedium;
+	src: url(./Fonts/Boska-Medium.woff) format("woff");
+	src: url(./Fonts/Boska-Medium.woff2) format("woff2");
+	src: url(./Fonts/Boska-Medium.ttf) format("truetype");
+	font-display: swap;
+}

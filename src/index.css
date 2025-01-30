@@ -1,0 +1,60 @@
+/*? index.css is a file that contains the global styles and customizations for the application.
+ *? It imports the Fonts.css file, which contains the font definitions.
+ *? It uses Tailwind CSS to apply base, component, and utility styles.
+ *? The file also includes custom styles for the following elements:
+ *? - *: applies default styles to all elements.
+ *? - :root: defines custom CSS variables.
+ *? - html, body: applies global styles to the HTML and body elements.
+ *? - h3: applies custom styles to h3 elements.
+ *? - h2: applies custom styles to h2 elements.
+ *? - ::-webkit-scrollbar: customizes the width of the scrollbar.
+ *? - ::-webkit-scrollbar-thumb: customizes the appearance of the scrollbar thumb.
+ *? - ::-webkit-scrollbar-button: hides the scrollbar buttons.
+ */
+
+@import url(./Assets/Fonts.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+:root {
+	--background: #0c0424;
+	--headTextColor: #ccb4d3;
+	--mainTextColor: #f0fff0;
+}
+
+html,
+body {
+	background: var(--background);
+	font-family: switzer;
+	color: var(--mainTextColor);
+}
+
+h3 {
+	font-family: boska;
+	color: var(--headTextColor);
+}
+
+h2 {
+	color: var(--headTextColor);
+	font-family: boskaMedium;
+	text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(0deg, #ccb4d3, #0c0424);
+	border-radius: 20px;
+	height: 130px;
+}
+::-webkit-scrollbar-button {
+	display: none;
+}
