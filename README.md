@@ -27,7 +27,7 @@ Lumina Luxe is a fashion brand website that showcases timeless, luxurious fashio
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/goutam-prasad-27/Lumina-luxe-fashion.git`
+1. Clone the repository: `git clone https://github.com/rudra-xi/lumina-luxe-fashion.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open your browser and navigate to `http://localhost:2676` to view the website.
